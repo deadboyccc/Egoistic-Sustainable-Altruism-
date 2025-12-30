@@ -1,9 +1,8 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Manifesto, Altruistic, Sustainable Technology</title>
   <style>
     :root{
@@ -24,27 +23,27 @@
         --accent:#39c2d0;
       }
     }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:var(--bg);color:var(--text)}
-    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:48px 24px}
-    .card{width:100%;max-width:880px;background:linear-gradient(180deg, rgba(255,255,255,0.02), var(--card));border-radius:var(--radius);box-shadow:0 6px 30px rgba(12,23,32,0.08);padding:36px}
-    header{display:flex;flex-direction:column;gap:8px;margin-bottom:18px}
-    h1{font-size:clamp(20px,4.5vw,34px);margin:0;letter-spacing:-0.02em}
-    p.lead{margin:0;color:var(--muted);font-size:clamp(13px,2.2vw,16px)}
-    hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--muted),transparent);margin:22px 0;border-radius:999px}
-    section{margin:18px 0}
-    h2{font-size:16px;margin:0 0 10px 0;color:var(--accent)}
-    p{margin:0 0 12px 0;line-height:1.55}
-    ul.values{margin:0 0 12px 20px}
-    footer{margin-top:22px;color:var(--muted);font-size:13px}
-    .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:13px}
-    code{background:rgba(11,114,133,0.06);padding:2px 6px;border-radius:6px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace}
+    *{box-sizing:border-box;}
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:48px 24px;}
+    .card{width:100%;max-width:880px;background:linear-gradient(180deg, rgba(255,255,255,0.02), var(--card));border-radius:var(--radius);box-shadow:0 6px 30px rgba(12,23,32,0.08);padding:36px;}
+    header{display:flex;flex-direction:column;gap:8px;margin-bottom:18px;}
+    h1{font-size:clamp(20px,4.5vw,34px);margin:0;letter-spacing:-0.02em;}
+    p.lead{margin:0;color:var(--muted);font-size:clamp(13px,2.2vw,16px);}
+    hr{border:0;height:1px;background:linear-gradient(90deg,transparent,var(--muted),transparent);margin:22px 0;border-radius:999px;}
+    section{margin:18px 0;}
+    h2{font-size:16px;margin:0 0 10px 0;color:var(--accent);}
+    p{margin:0 0 12px 0;line-height:1.55;}
+    ul.values{margin:0 0 12px 20px;}
+    footer{margin-top:22px;color:var(--muted);font-size:13px;}
+    .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:13px;}
+    code{background:rgba(11,114,133,0.06);padding:2px 6px;border-radius:6px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;}
     @media (prefers-color-scheme:dark){
-      code{background:rgba(57,194,208,0.06)}
-      .card{box-shadow:0 8px 36px rgba(0,0,0,0.6)}
+      code{background:rgba(57,194,208,0.06);}
+      .card{box-shadow:0 8px 36px rgba(0,0,0,0.6);}
     }
-    .ls-compare{border-left:3px solid rgba(11,114,133,0.08);padding:12px 14px;border-radius:8px;background:linear-gradient(180deg, rgba(11,114,133,0.02), transparent)}
-    @media (max-width:520px){.card{padding:22px}}
+    .ls-compare{border-left:3px solid rgba(11,114,133,0.08);padding:12px 14px;border-radius:8px;background:linear-gradient(180deg, rgba(11,114,133,0.02), transparent);}
+    @media (max-width:520px){.card{padding:22px;}}
   </style>
 </head>
 <body>
@@ -54,55 +53,59 @@
         <h1>Personal Manifesto</h1>
         <p class="lead">Altruistic, Sustainable Technology</p>
         <p class="lead">A concise statement of values, hopes, and ideas about where we are as a species, and where our science, technology, and engineering should go.</p>
-      </header>  <section>
-    <h2>Where I stand</h2>
-    <p>I’m disappointed by where we are as a species and by the direction we’re heading. Too often, our primal instincts overpower reason. Instead of optimizing for sustainability, wellbeing, health, meaning, impact, and curiosity, we prioritize greed, consumerism, and the endless chase for more, a hollow, self-reinforcing form of capitalism.</p>
-  </section>  <section>
-    <h2>My focus: STEM and technology</h2>
-    <p>STEM is my passion and my domain, which makes its current trajectory especially painful to witness.</p>
-    <p>Are science, technology, and engineering truly optimizing for the environment? For human wellbeing and health? For future generations, curiosity, altruism, and sustainability?</p>
-    <p>Too often, we optimize for profit first: consuming more, extracting more, and disregarding ecosystems in the process. Technology should make life better. It should be net positive for both people and planet. Yet many systems today are designed primarily to maximize ad revenue, retention, and growth, often at the expense of user wellbeing and long-term sustainability.</p>
-  </section>  <section>
-    <h2>Is your software as wholesome as <code>ls</code>?</h2>
-    <div class="ls-compare">
-      <p>Consider <code>ls</code>. It does exactly what you ask: nothing more, nothing less. It is predictable, transparent, and respectful of your time and attention. It does not try to manipulate you, sell you something, or quietly collect data to optimize engagement metrics.</p>
-      <p>Good software should behave similarly. It should respect attention, avoid manipulative retention tactics, and protect personal data. This is not only about malicious data harvesting or attention capture. It is also about the constant pressure to increase profits and consumption, pressure that drains our mental bandwidth, our systems, and our environment for more meaningless activity.</p>
-      <p>If a product prioritizes retention, ads, or relentless growth over people and the planet, it fails a basic test of care. Usefulness that respects humans and ecosystems is not boring. It is responsible design.</p>
-    </div>
-  </section>  <section>
-    <h2>Questions I keep asking</h2>
-    <ul class="values">
-      <li>Why not optimize for wellbeing first, while keeping profits healthy and reasonable?</li>
-      <li>Why the constant push for more, at all costs?</li>
-      <li>Why has the joy of computing and problem-solving been reduced to utilities that primarily maximize consumption, often harming users and the environment?</li>
-    </ul>
-  </section>  <section>
-    <h2>A different path</h2>
-    <p>I propose a different initiative within my domain: altruistic, sustainability-positive, impact-driven development.</p>
-    <p>Development that treats sustainability, wellbeing, health, curiosity, and altruism as first principles, with profit as a constraint, not the goal.</p>
-    <p>I’m not against business. I’m against systems that sacrifice human and ecological flourishing in the name of endless growth. We can design platforms, products, and tools that are economically viable and ethically grounded.</p>
-  </section>  <section>
-    <h2>Values (short)</h2>
-    <ul class="values">
-      <li>Sustainability</li>
-      <li>Wellbeing and health</li>
-      <li>Meaningful impact</li>
-      <li>Curiosity and learning</li>
-      <li>Altruism</li>
-      <li>Responsible profit, enough not endless</li>
-    </ul>
-  </section>  <section>
-    <h2>Small note</h2>
-    <p>I also like TDD. Hehe.</p>
-  </section>  <hr />  <footer>
-    <div class="meta">Published as a minimal manifesto for sharing, reflection, and discussion.</div>
-    <div style="margin-top:10px;color:var(--muted);font-size:13px">If you want, I can also:</div>
-    <ul style="margin-top:6px;color:var(--muted);font-size:13px">
-      <li>Make a shorter one-screen version</li>
-      <li>Tune it for a website, README, or pinned post</li>
-      <li>Adjust tone slightly — more poetic, more technical, or more activist</li>
-    </ul>
-  </footer>
-</article>  </div>
+      </header>
+      <section>
+        <h2>Where I stand</h2>
+        <p>I’m disappointed by where we are as a species and by the direction we’re heading. Too often, our primal instincts overpower reason. Instead of optimizing for sustainability, wellbeing, health, meaning, impact, and curiosity, we prioritize greed, consumerism, and the endless chase for more, a hollow, self-reinforcing form of capitalism.</p>
+      </section>
+      <section>
+        <h2>My focus: STEM and technology</h2>
+        <p>STEM is my passion and my domain, which makes its current trajectory especially painful to witness.</p>
+        <p>Are science, technology, and engineering truly optimizing for the environment? For human wellbeing and health? For future generations, curiosity, altruism, and sustainability?</p>
+        <p>Too often, we optimize for profit first: consuming more, extracting more, and disregarding ecosystems in the process. Technology should make life better. It should be net positive for both people and planet. Yet many systems today are designed primarily to maximize ad revenue, retention, and growth, often at the expense of user wellbeing and long-term sustainability.</p>
+      </section>
+      <section>
+        <h2>Is your software as wholesome as <code>ls</code>?</h2>
+        <div class="ls-compare">
+          <p>Consider <code>ls</code>. It does exactly what you ask: nothing more, nothing less. It is predictable, transparent, and respectful of your time and attention. It does not try to manipulate you, sell you something, or quietly collect data to optimize engagement metrics.</p>
+          <p>Good software should behave similarly. It should respect attention, avoid manipulative retention tactics, and protect personal data. This is not only about malicious data harvesting or attention capture. It is also about the constant pressure to increase profits and consumption, pressure that drains our mental bandwidth, our systems, and our environment for more meaningless activity.</p>
+          <p>If a product prioritizes retention, ads, or relentless growth over people and the planet, it fails a basic test of care. Usefulness that respects humans and ecosystems is not boring. It is responsible design.</p>
+        </div>
+      </section>
+      <section>
+        <h2>Questions I keep asking</h2>
+        <ul class="values">
+          <li>Why not optimize for wellbeing first, while keeping profits healthy and reasonable?</li>
+          <li>Why the constant push for more, at all costs?</li>
+          <li>Why has the joy of computing and problem-solving been reduced to utilities that primarily maximize consumption, often harming users and the environment?</li>
+        </ul>
+      </section>
+      <section>
+        <h2>A different path</h2>
+        <p>I propose a different initiative within my domain: altruistic, sustainability-positive, impact-driven development.</p>
+        <p>Development that treats sustainability, wellbeing, health, curiosity, and altruism as first principles, with profit as a constraint, not the goal.</p>
+        <p>I’m not against business. I’m against systems that sacrifice human and ecological flourishing in the name of endless growth. We can design platforms, products, and tools that are economically viable and ethically grounded.</p>
+      </section>
+      <section>
+        <h2>Values (short)</h2>
+        <ul class="values">
+          <li>Sustainability</li>
+          <li>Wellbeing and health</li>
+          <li>Meaningful impact</li>
+          <li>Curiosity and learning</li>
+          <li>Altruism</li>
+          <li>Responsible profit, enough not endless</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Small note</h2>
+        <p>I also like TDD. Hehe.</p>
+      </section>
+      <hr />
+      <footer>
+        <div class="meta">Published as a minimal manifesto for sharing, reflection, and discussion.</div>
+      </footer>
+    </article>
+  </div>
 </body>
 </html>
